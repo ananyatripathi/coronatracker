@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+}
+  
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap');
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: rgb(73, 72, 72);
+
+}
+body{
+  background-color: #e5e5e5;
+}
+.app_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+
+  border-radius: 10px;
+}
+
+h1{
+  font-family: 'Volkhov', serif;
+    font-size: 46px;
+    font-weight: bolder;
+    color: #f53123;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    letter-spacing: 0.1rem;
+}
+.sidebarhead{
+  font-family: 'Volkhov', serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #f3ebeb;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.last{
+  color: white;
+}
+.MuiInputBase-input {
+  font: inherit;
+  width: 100%;
+  border: 0;
+  height: 1.1876em;
+  color: #e5e5e5;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms;
+  -webkit-tap-highlight-color: transparent;}
+
+.sidebarhead2{
+  font-family: 'Volkhov', serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #252525;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.app_left{
+  flex:0.9; 
+}
+.app_stats{
+  display: flex;
+  justify-content: space-between;
+}
+.app_right{
+  border-radius: 20px;
+}
+.right{
+  background-color: #e43c30;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 990px){
+  .app{
+    flex-direction: column;
+  }
+}
